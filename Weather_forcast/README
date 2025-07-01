@@ -1,0 +1,17 @@
+To Run the project in the local system
+
+1) download the virtual enviorment
+>>>>> python -m venv .venv >>>>>>
+
+2) activate the virtual enviorment
+>>>>>.venv/Scripts/activate>>>>>>> for windows
+
+3) install the requirments.txt file
+>>>>> pip install -r requirments.txt >>>>>
+
+4) run on the docker
+>>>>> docker compose up --build -d >>>>> for the first time
+>>>>> docker compose up  >>>>>
+
+5) running the etl any time using
+>>>>> python rtl.py on the cmd >>>>>
